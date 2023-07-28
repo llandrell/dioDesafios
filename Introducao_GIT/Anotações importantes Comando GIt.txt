@@ -2,7 +2,12 @@ Comandos _GIT_
 
 git clone (repositorio) = Clona um repositorio Exp: git clone <https://link-com-o-nome-do-repositório>
 
-Git branch (nome da branch) = Uma copia da Master (onde será feito as mudanças/ criação) =  git branch <nome-da-branch>
+git fetch -all (obtem todas as branches atualizadas)
+
+git checkout <nome da Branch// git checkout -b <nome da branch> (cria a develop caso vc não tenha mas verificva no projeto q vc ta trabalahndo se criaram com outro nome  
+
+git checkout -b <nome da branch>
+
 
 git push -u = Envia o Codigo "Empurra" é enviar suas alterações ao servidor remoto.  =  git push -u <local-remoto> <nome-da-branch>
 
@@ -27,6 +32,7 @@ git status = os dá todas as informações necessárias sobre a branch atual.
 
 git add = incluir as alterações de um ou vários arquivos em nosso próximo commit = git add <arquivo>
 git add -A = todos os arquivos
+git add . 
 
 	* Importante: o comando git add não altera o repositório. As alterações não são salvas até que se use o git commit.
  
