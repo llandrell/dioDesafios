@@ -4,7 +4,7 @@ git clone (repositorio) = Clona o repositorio da nuvem (servidor externo) para a
 
 Git branch (nome da branch) = Uma copia da Master (onde será feito as mudanças/ criação) =  git branch <nome-da-branch>
 
-git push -u = Envia o Codigo "Empurra" é enviar suas alterações ao servidor remoto.  =  git push -u <local-remoto> <nome-da-branch>
+git push -u = Envia o Codigo "Empurra" é enviar suas alterações ao servidor remoto.  =  git push -u <local-remoto> <nome-da-branch>	
 
 	* Entretanto, se a sua branch foi recém-criada, também é preciso fazer o upload da branch com o seguinte comando:
 		git push --set-upstream <repositório-remoto> <nome-da-branch> 
@@ -43,6 +43,3 @@ Git pull = obter as atualizações de um repositório remoto. uma combinação d
 Git revert = desfazer as alterações que fizemos. = git revert <codigo hash> Exemplo git revert 3321844
 
 	git log -- oneline: = ver nosso histórico de commits
-
-
-
