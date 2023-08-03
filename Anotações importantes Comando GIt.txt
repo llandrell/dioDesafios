@@ -43,3 +43,5 @@ Git pull = obter as atualizações de um repositório remoto. uma combinação d
 Git revert = desfazer as alterações que fizemos. = git revert <codigo hash> Exemplo git revert 3321844
 
 	git log -- oneline: = ver nosso histórico de commits
+
+a-
