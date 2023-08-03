@@ -44,4 +44,5 @@ Git revert = desfazer as alterações que fizemos. = git revert <codigo hash> Ex
 
 	git log -- oneline: = ver nosso histórico de commits
 
-a-
+
+
